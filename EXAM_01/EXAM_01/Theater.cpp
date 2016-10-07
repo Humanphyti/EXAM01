@@ -6,16 +6,10 @@ Theater::Theater(string newName, string newPhone)
 	phone = newPhone;
 }
 
-void Theater::addMovie(Movie & Movie)
+void Theater::addMovie(Movie &Movie)
 {
-	
+	movie.movieListing[];
 }
-
-void Theater::initializeMovies(Movie * movieListing[])
-{
-	movieListing[0] = new 
-}
-
 
 
 string Theater::getMovieForHour(int newHour)
