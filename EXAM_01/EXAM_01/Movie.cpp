@@ -3,7 +3,11 @@
 Movie::Movie(string newTitle, string newGenre, int newShowtime)
 {
 	title = newTitle;
-	genre = newGenre;
+    if(genre == "Action" || genre == "Horror" || genre == "Documentary" || genre == "Comedy")
+        genre = newGenre;
+    else
+        genre = "Comedy";
+    
 	showtime = newShowtime;
 }
 

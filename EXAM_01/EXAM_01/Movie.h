@@ -21,4 +21,7 @@ private:
 	string genre;
 
 	int showtime; //must be in 24 hour time.
+
+    int* Movies;
+
 };
