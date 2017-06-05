@@ -15,6 +15,8 @@ public:
 	string getGenre();
 
 	int getShowtime();
+	
+	Movie();
 
 private:
 	//need to remain protected and only editable via functions
