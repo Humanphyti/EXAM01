@@ -26,3 +26,7 @@ int Movie::getShowtime()
 {
 	return showtime;
 }
+
+Movie::Movie()
+{
+}
